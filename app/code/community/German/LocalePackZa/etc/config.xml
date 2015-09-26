@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackZa>
+            <version>0.2.0</version>
+            <locale>en_ZA</locale>
+            <title>English (South Africa) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_en_ZA</link_git>
+            <link_mage></link_mage>
+        </German_LocalePackZa>
+    </modules>
+
+    <global>
+        <models>
+            <localepackza>
+                <class>German_LocalePackZa_Model</class>
+            </localepackza>
+        </models>
+        <helpers>
+            <localepackza>
+                <class>German_LocalePackZa_Helper</class>
+            </localepackza>
+        </helpers>
+        <blocks>
+            <localepackza>
+                <class>German_LocalePackZa_Block</class>
+            </localepackza>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackza>
+                        <class>localepackza/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackza>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackza>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_en_ZA</url>
+            </notification>
+        </localepackza>
+        <magesetup>
+            <default_country>ZA</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <localepackza>
+                    <files>
+                    	<default>localepackza.xml</default>
+                    </files>
+                </localepackza>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <German_LocalePackZa>
+                    <files>
+                        <localepackza>German_LocaleZa.csv</localepackza>
+                        <default>German_LocaleEn.csv</default>
+                    </files>
+                </German_LocalePackZa>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackza">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackza translate="title" module="localepackza">
+                                            		<title>English (South Africa) Language Pack</title>
+                                        		</localepackza> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
