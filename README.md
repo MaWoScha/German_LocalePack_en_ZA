@@ -65,7 +65,7 @@ This is a derived work of [German LocalePack de_CH](https://github.com/MaWoScha/
 refactured and internationalized from MaWoScha.
 
 This extension is tested with Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 and 1.9.1. <br />
-The language pack is suitable for Magento 1.6.x until 1.9.x, but the language files are complete as of version 1.7.0 and up 1.9.2.x.
+The language pack is suitable for Magento 1.6.x until 1.9.x, but the language files are complete as of version 1.7.0 and up 1.9.4.x.
 
 As long as the language files of this extension are empty, this language pack does nothing (yet).
 But as soon as you enter some specific, in South Africa common words and phrases, you will benefit from the functionality of "Fallback language".
@@ -75,7 +75,7 @@ Dies ist eine abgeleitete Arbeit von [German LocalePack de_CH](https://github.co
 überarbeitet und internationalisiert von MaWoScha.
 
 Diese Erweiterung ist mit Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 und 1.9.1 getestet. <br />
-Das Sprachpaket ist für Magento 1.6.x bis 1.9.x nutzbar, indes die Sprachdateien sind vollständig ab Version 1.7.0 und bis 1.9.2.x.
+Das Sprachpaket ist für Magento 1.6.x bis 1.9.x nutzbar, indes die Sprachdateien sind vollständig ab Version 1.7.0 und bis 1.9.4.x.
 
 Solange die Sprachdateien dieser Erweiterung leer sind, tut dieses Sprachpaket (noch) nichts.
 Sobald Sie aber einige spezielle, in Südafrika gebräuchliche Wörter und Phrasen eintragen, profitieren Sie von der Funktionalität der "Ausweichsprache".
@@ -85,7 +85,7 @@ Se trata de una obra derivada de [German LocalePack de_CH](https://github.com/Ma
 revisado e internacionalizado de MaWoScha.
 
 Esta extensión se prueba con Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 y 1.9.1. <br />
-El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.x, pero los archivos de idioma están completos a partir de la versión 1.7.0 y hasta 1.9.2.x.
+El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.x, pero los archivos de idioma están completos a partir de la versión 1.7.0 y hasta 1.9.4.x.
 
 Mientras los archivos de idioma de esta extensión están vacías, este paquete de idioma (todavía) no hace nada.
 Pero tan pronto como entras en alguna específica, común en las palabras y frases de Sudáfrica, que se beneficiarán de la funcionalidad de "Idioma segunda opción".

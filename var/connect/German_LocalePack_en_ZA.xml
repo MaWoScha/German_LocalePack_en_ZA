@@ -13,7 +13,7 @@ Englisches Sprachpaket für Magento Commerce - Sprachversion für Großbritannie
 Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.2.1</version>
    <stability>stable</stability>
    <notes>none</notes>
    <authors>
@@ -28,7 +28,7 @@ Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</d
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.1.0</depends_php_max>
    <depends>
       <package>
          <name>
@@ -67,6 +67,7 @@ Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</d
          <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -205,6 +206,7 @@ Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</d
          <path>en_ZA/Mage_Sitemap.csv</path>
          <path>en_ZA/Mage_Tag.csv</path>
          <path>en_ZA/Mage_Tax.csv</path>
+         <path>en_ZA/Mage_Uploader.csv</path>
          <path>en_ZA/Mage_Usa.csv</path>
          <path>en_ZA/Mage_Weee.csv</path>
          <path>en_ZA/Mage_Widget.csv</path>
@@ -222,6 +224,7 @@ Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</d
          <type>file</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -371,9 +374,11 @@ Paquete de idioma inglés para Magento Commerce - Versión para Gran Bretaña</d
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
