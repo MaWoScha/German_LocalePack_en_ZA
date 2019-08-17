@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackZa>
-            <version>0.2.1</version>
+            <version>0.2.2</version>
             <locale>en_ZA</locale>
             <title>English (South Africa) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_en_ZA</link_git>
